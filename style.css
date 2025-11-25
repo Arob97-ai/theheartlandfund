@@ -1,6 +1,18 @@
 body{margin:0;font-family:"Poppins",sans-serif;background:#f3f5f8;color:#0a1d33;scroll-behavior:smooth;}
 .hero{background:#071829;text-align:center;padding:120px 20px 110px;color:white;}
-.hero-logo{width:230px;margin-bottom:25px;opacity:0;animation:fadeIn 2s ease forwards;}
+.hero-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    animation: fade-in 1.5s ease;
+}
+
+.hero-logo img {
+    width: 160px;
+    height: auto;
+    opacity: 1;
+}
 .hero h1{font-size:52px;margin:10px 0 5px;font-weight:600;opacity:0;animation:fadeIn 2.4s ease forwards;}
 .hero h2{margin-top:10px;font-size:20px;font-weight:300;opacity:0;animation:fadeIn 3s ease forwards;}
 .contact-btn{display:inline-block;margin-top:30px;padding:14px 34px;background:#fff;color:#071829;font-weight:600;border-radius:40px;text-decoration:none;font-size:17px;transition:.3s;opacity:0;animation:fadeIn 3.5s ease forwards;}
